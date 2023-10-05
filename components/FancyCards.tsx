@@ -46,10 +46,12 @@ const styles = StyleSheet.create({
     },
     title: {
         fontWeight: '600',
-        fontSize: 20
+        fontSize: 20,
+        color : "rgb(0,0,0)"
     },
     desc: {
         fontSize: 16,
+        color : "rgba(0,0,0,0.5)"
     },
     footer: {
         fontSize: 12,
