@@ -29,13 +29,15 @@ const styles = StyleSheet.create({
     fontWeight : "600",
   },
   boxHeader : {
+    flex : 1,
     flexDirection : 'row',
     gap : 8,
     padding : 10,
   },
   box : {
     height : 100,
-    // width : Dimensions.get("screen").width ,
+    width : 100,
+    margin : 8,
     flex : 1,
     alignItems : 'center',
     justifyContent : "center",
